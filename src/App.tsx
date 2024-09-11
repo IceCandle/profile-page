@@ -27,7 +27,12 @@ function App() {
       <section className="contact">
         <h2>Contact Me</h2>
         <div className="contact-buttons">
-          <a href="https://github.com/icecandle" target="_blank" rel="noreferrer" className="button">
+          <a
+            href="https://github.com/icecandle"
+            target="_blank"
+            rel="noreferrer"
+            className="button"
+          >
             GitHub
           </a>
           <a href="mailto:icecandle@snu.ac.kr" className="button">
