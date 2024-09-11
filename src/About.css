@@ -1,0 +1,25 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fff;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.about ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.about li {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
