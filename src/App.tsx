@@ -1,40 +1,49 @@
 import './App.css';
 
-import { useState } from 'react';
-
-import viteLogo from '/vite.svg';
-
-import reactLogo from './assets/react.svg';
+import pfp from './assets/pfp.png';
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank" rel="noreferrer">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank" rel="noreferrer">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button
-          onClick={() => {
-            setCount(count + 1);
-          }}
-        >
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <header className="header">
+        <img src={pfp} alt="Profile" className="pfp" />
+        <h1>양진혁</h1>
+        <p className="tagline">JinHyeok Yang</p>
+      </header>
+
+      <section className="about">
+        <h2>About Me</h2>
+        <ul>
+          <li>SNU CSE 23</li>
+          <li>단풍 드럼장</li>
+        </ul>
+      </section>
+
+      <section className="projects">
+        <h2>Projects</h2>
+        <p>More projects coming soon...</p>
+      </section>
+
+      <section className="contact">
+        <h2>Contact Me</h2>
+        <div className="contact-buttons">
+          <a
+            href="https://github.com/icecandle"
+            target="_blank"
+            rel="noreferrer"
+            className="button"
+          >
+            GitHub
+          </a>
+          <a href="mailto:icecandle@snu.ac.kr" className="button">
+            Email
+          </a>
+        </div>
+      </section>
+
+      <footer className="footer">
+        <p></p>
+      </footer>
     </>
   );
 }

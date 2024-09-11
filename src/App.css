@@ -1,42 +1,99 @@
+/* Root Container */
 #root {
-  max-width: 1280px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 2rem;
+  text-align: left;
+  font-family: Arial, sans-serif;
+}
+
+/* Header Section */
+.header {
   text-align: center;
+  margin-bottom: 2rem;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
+.header .tagline {
+  font-size: 1.25rem;
   color: #888;
+}
+
+/* About Section */
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Projects Section */
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.projects ul {
+  list-style: none;
+  padding: 0;
+}
+
+.projects li {
+  margin-bottom: 0.75rem;
+}
+
+.projects a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.projects a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.contact-buttons {
+  display: flex;
+  gap: 1rem;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Section */
+.footer {
+  text-align: center;
+  margin-top: 2rem;
+  color: #555;
+}
+
+.footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
 }
