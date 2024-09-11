@@ -5,7 +5,7 @@ import React from 'react';
 const Footer: React.FC = () => {
   return (
     <footer className="footer">
-      <p>&copy; 2023 JinHyeok Yang. All rights reserved.</p>
+      <p>&copy; 2024 JinHyeok Yang. All rights reserved.</p>
     </footer>
   );
 };
