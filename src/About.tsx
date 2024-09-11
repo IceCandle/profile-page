@@ -9,6 +9,7 @@ const About: React.FC = () => {
       <ul>
         <li>SNU CSE 23</li>
         <li>단풍 드럼장</li>
+        <li>산기요 준비 중</li>
       </ul>
     </section>
   );
